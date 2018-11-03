@@ -1,3 +1,22 @@
 // Place all the styles related to the Weather controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+#top {
+  margin: 100px 200px;
+}
+
+.title {
+  margin: auto;
+}
+
+.weather-container {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.weather-item {
+  width: 33%;
+  height: 200px;
+}
